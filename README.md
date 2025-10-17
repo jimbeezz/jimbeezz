@@ -32,7 +32,7 @@
 | Воскресенье | Делаю то, что подвернётся |
 
 ## пример вывода простых чисел, через решето эратосфена 
-```
+```python
 def sieve_of_eratosthenes(limit):
     primes = [True] * (limit + 1) 
     primes[0] = primes[1] = False 
